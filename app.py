@@ -1,53 +1,12 @@
 import streamlit as st
-import pandas as pd
-import joblib
-import csv
+import requests
 import time
-from pathlib import Path
-from datetime import datetime
 
-# Configuração da página
+# =====================================================
+# 1. CONFIGURAÇÕES
+# =====================================================
 
-CAMINHO_MONITORAMENTO = (
-    Path(__file__).resolve().parent
-    / "resultados"
-    / "monitoramento.csv"
-)
-
-
-def registrar_monitoramento(probabilidade, classificacao, tempo_execucao):
-    """Registra informações básicas de cada previsão."""
-
-    CAMINHO_MONITORAMENTO.parent.mkdir(
-        parents=True,
-        exist_ok=True
-    )
-
-    arquivo_existe = CAMINHO_MONITORAMENTO.exists()
-
-    with open(
-        CAMINHO_MONITORAMENTO,
-        mode="a",
-        newline="",
-        encoding="utf-8"
-    ) as arquivo:
-        escritor = csv.writer(arquivo)
-
-        if not arquivo_existe:
-            escritor.writerow([
-                "data_hora",
-                "probabilidade_evasao",
-                "classificacao",
-                "tempo_execucao_segundos"
-            ])
-
-        escritor.writerow([
-            datetime.now().astimezone().isoformat(timespec="seconds"),
-            round(float(probabilidade), 4),
-            classificacao,
-            round(float(tempo_execucao), 4)
-        ])
-
+URL_API = "http://127.0.0.1:8000"
 
 st.set_page_config(
     page_title="Predição de Evasão Escolar",
@@ -55,57 +14,90 @@ st.set_page_config(
     layout="wide"
 )
 
-# Carregamento do modelo
-CAMINHO_MODELO = (
-    Path(__file__).resolve().parent
-    / "modelo_regressao_logistica.joblib"
-)
+# =====================================================
+# 2. COMUNICAÇÃO COM A API
+# =====================================================
 
-@st.cache_resource
-def carregar_modelo():
-    return joblib.load(CAMINHO_MODELO)
+@st.cache_data
+def carregar_opcoes():
+    resposta = requests.get(
+        f"{URL_API}/opcoes",
+        timeout=10
+    )
+    resposta.raise_for_status()
+    return resposta.json()
+
 
 try:
-    modelo = carregar_modelo()
-except Exception as erro:
-    st.error(f"Não foi possível carregar o modelo: {erro}")
+    opcoes_api = carregar_opcoes()
+
+except requests.exceptions.RequestException as erro:
+    st.error(
+        "Não foi possível acessar a API. "
+        "Verifique se o servidor está em execução."
+    )
+    st.code(str(erro))
     st.stop()
 
-# Recuperação das categorias aprendidas pelo modelo
-preparador = modelo.named_steps["preparacao"]
-codificador = preparador.named_transformers_["categoricas"]
 
-colunas_categoricas = [
-    "Marital Status",
-    "Application mode",
-    "Application order",
-    "Course",
-    "Daytime/evening attendance",
-    "Previous qualification",
-    "Nacionality",
-    "Mother's qualification",
-    "Father's qualification",
-    "Mother's occupation",
-    "Father's occupation",
-    "Displaced",
-    "Educational special needs",
-    "Gender",
-    "International"
-]
+# =====================================================
+# 3. CAMPOS DO FORMULÁRIO
+# =====================================================
 
-colunas_numericas = [
-    "Previous qualification (grade)",
-    "Admission grade",
-    "Age at enrollment",
-    "Curricular units 1st sem (credited)",
-    "Curricular units 1st sem (enrolled)",
-    "Curricular units 1st sem (evaluations)",
-    "Curricular units 1st sem (approved)",
-    "Curricular units 1st sem (grade)",
-    "Curricular units 1st sem (without evaluations)"
-]
+campos_categoricos = {
+    "Marital Status": "marital_status",
+    "Application mode": "application_mode",
+    "Application order": "application_order",
+    "Course": "course",
+    "Daytime/evening attendance": "daytime_evening_attendance",
+    "Previous qualification": "previous_qualification",
+    "Nacionality": "nacionality",
+    "Mother's qualification": "mother_qualification",
+    "Father's qualification": "father_qualification",
+    "Mother's occupation": "mother_occupation",
+    "Father's occupation": "father_occupation",
+    "Displaced": "displaced",
+    "Educational special needs": "educational_special_needs",
+    "Gender": "gender",
+    "International": "international"
+}
 
-# Interface
+
+configuracoes_numericas = {
+    "Previous qualification (grade)": (
+        "previous_qualification_grade", 95.0, 190.0, 133.1, 0.1
+    ),
+    "Admission grade": (
+        "admission_grade", 95.0, 190.0, 126.0, 0.1
+    ),
+    "Age at enrollment": (
+        "age_at_enrollment", 17, 62, 20, 1
+    ),
+    "Curricular units 1st sem (credited)": (
+        "curricular_units_1st_sem_credited", 0, 20, 0, 1
+    ),
+    "Curricular units 1st sem (enrolled)": (
+        "curricular_units_1st_sem_enrolled", 0, 26, 6, 1
+    ),
+    "Curricular units 1st sem (evaluations)": (
+        "curricular_units_1st_sem_evaluations", 0, 45, 8, 1
+    ),
+    "Curricular units 1st sem (approved)": (
+        "curricular_units_1st_sem_approved", 0, 26, 5, 1
+    ),
+    "Curricular units 1st sem (grade)": (
+        "curricular_units_1st_sem_grade", 0.0, 18.0, 12.33, 0.1
+    ),
+    "Curricular units 1st sem (without evaluations)": (
+        "curricular_units_1st_sem_without_evaluations", 0, 12, 0, 1
+    )
+}
+
+
+# =====================================================
+# 4. INTERFACE
+# =====================================================
+
 st.title("🎓 Predição de Risco de Evasão Escolar")
 
 st.write(
@@ -120,7 +112,6 @@ st.info(
 )
 
 st.divider()
-
 st.subheader("1. Informações do estudante")
 
 dados = {}
@@ -129,41 +120,31 @@ with st.form("formulario_predicao"):
 
     st.markdown("### Dados categóricos")
 
-    col1, col2, col3 = st.columns(3)
+    colunas = st.columns(3)
 
-    for i, coluna in enumerate(colunas_categoricas):
-        opcoes = codificador.categories_[i].tolist()
-
-        with [col1, col2, col3][i % 3]:
-            dados[coluna] = st.selectbox(
-                coluna,
-                options=opcoes,
+    for i, (nome, chave_api) in enumerate(
+        campos_categoricos.items()
+    ):
+        with colunas[i % 3]:
+            dados[chave_api] = st.selectbox(
+                nome,
+                options=opcoes_api[nome],
                 key=f"cat_{i}"
             )
 
     st.divider()
     st.markdown("### Dados numéricos")
 
-    configuracoes = {
-        "Previous qualification (grade)": (95.0, 190.0, 133.1, 0.1),
-        "Admission grade": (95.0, 190.0, 126.0, 0.1),
-        "Age at enrollment": (17, 62, 20, 1),
-        "Curricular units 1st sem (credited)": (0, 20, 0, 1),
-        "Curricular units 1st sem (enrolled)": (0, 26, 6, 1),
-        "Curricular units 1st sem (evaluations)": (0, 45, 8, 1),
-        "Curricular units 1st sem (approved)": (0, 26, 5, 1),
-        "Curricular units 1st sem (grade)": (0.0, 18.0, 12.33, 0.1),
-        "Curricular units 1st sem (without evaluations)": (0, 12, 0, 1)
-    }
+    colunas = st.columns(3)
 
-    col1, col2, col3 = st.columns(3)
+    for i, (nome, configuracao) in enumerate(
+        configuracoes_numericas.items()
+    ):
+        chave_api, minimo, maximo, padrao, passo = configuracao
 
-    for i, coluna in enumerate(colunas_numericas):
-        minimo, maximo, padrao, passo = configuracoes[coluna]
-
-        with [col1, col2, col3][i % 3]:
-            dados[coluna] = st.number_input(
-                coluna,
+        with colunas[i % 3]:
+            dados[chave_api] = st.number_input(
+                nome,
                 min_value=minimo,
                 max_value=maximo,
                 value=padrao,
@@ -178,35 +159,31 @@ with st.form("formulario_predicao"):
         use_container_width=True
     )
 
-# Predição
+
+# =====================================================
+# 5. ENVIO DOS DADOS PARA A API
+# =====================================================
+
 if enviar:
 
-    entrada = pd.DataFrame(
-        [dados],
-        columns=colunas_categoricas + colunas_numericas
-    )
-
     try:
-        inicio_execucao = time.perf_counter()
-        predicao = modelo.predict(entrada)[0]
-        probabilidades = modelo.predict_proba(entrada)[0]
-        tempo_execucao = time.perf_counter() - inicio_execucao
+        inicio = time.perf_counter()
 
-        indice_dropout = list(modelo.classes_).index(1)
-        probabilidade = probabilidades[indice_dropout]
-
-        classificacao = (
-            "Risco de evasão"
-            if int(predicao) == 1
-            else "Sem classificação de risco de evasão"
+        resposta = requests.post(
+            f"{URL_API}/prever",
+            json=dados,
+            timeout=30
         )
 
-        registrar_monitoramento(
-            probabilidade,
-            classificacao,
-            tempo_execucao
-        )
+        resposta.raise_for_status()
 
+        resultado = resposta.json()
+
+        tempo_total = time.perf_counter() - inicio
+
+        probabilidade = resultado["probabilidade_evasao"]
+        classificacao = resultado["classificacao"]
+        predicao = resultado["predicao"]
 
         st.divider()
         st.subheader("2. Resultado da análise")
@@ -235,6 +212,17 @@ if enviar:
             "do estudante."
         )
 
-    except Exception as erro:
-        st.error(f"Erro durante a predição: {erro}")
+        st.caption(
+            f"Tempo de execução do modelo: "
+            f"{resultado['tempo_execucao_segundos']:.4f} segundos."
+        )
 
+        st.caption(
+            f"Tempo total da comunicação: {tempo_total:.4f} segundos."
+        )
+
+    except requests.exceptions.RequestException as erro:
+        st.error(f"Erro ao comunicar com a API: {erro}")
+
+    except Exception as erro:
+        st.error(f"Erro durante a previsão: {erro}")

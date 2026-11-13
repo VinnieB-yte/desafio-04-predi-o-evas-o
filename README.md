@@ -1,92 +1,153 @@
-# Projeto de Machine Learning — Previsão de Risco de Evasão Escolar
+# Desafio 04 — Predição de Risco de Evasão Escolar
 
 ## 1. Sobre o projeto
 
-Este projeto foi desenvolvido como parte do Desafio 04 e tem como objetivo utilizar técnicas de Machine Learning para identificar estudantes com possível risco de evasão escolar.
+Este projeto utiliza técnicas de Machine Learning para estimar o risco de evasão escolar no ensino superior, com base em informações acadêmicas, pessoais e socioeconômicas dos estudantes.
 
-A solução utiliza um modelo de classificação treinado com dados do conjunto **Student Dropout and Academic Success**, disponibilizado no UCI Machine Learning Repository.
+O desenvolvimento utiliza a base de dados Student Dropout and Academic Success, disponibilizada pelo UCI Machine Learning Repository.
 
-O modelo estima a probabilidade de evasão e apresenta uma classificação de risco, auxiliando no acompanhamento dos estudantes. A previsão representa uma estimativa, não uma certeza de que o estudante abandonará o curso.
+O modelo selecionado foi a Regressão Logística, treinada e avaliada para identificar estudantes que apresentam características associadas à evasão.
 
-## 2. Tecnologias utilizadas
+A previsão representa uma estimativa estatística e não uma certeza sobre o futuro do estudante.
 
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Matplotlib
-- Seaborn
-- Joblib
-- Streamlit
-- Google Colab
-- Google Drive
-- Git e GitHub
+## 2. Objetivo
 
-## 3. Modelo de Machine Learning
+Desenvolver uma solução capaz de:
 
-Foram avaliados três algoritmos de classificação:
+- Receber informações de estudantes por meio de uma interface.
+- Processar os dados utilizando um modelo de Machine Learning já treinado.
+- Estimar a probabilidade de evasão.
+- Apresentar a classificação do risco.
+- Registrar automaticamente as previsões realizadas.
 
-- Regressão Logística;
-- Árvore de Decisão;
-- Random Forest.
+## 3. Tecnologias utilizadas
 
-Após a comparação dos resultados e a otimização dos parâmetros, a **Regressão Logística** foi selecionada como modelo principal.
+- Python: linguagem de programação.
+- Google Colab: ambiente de desenvolvimento.
+- Pandas e NumPy: manipulação e preparação dos dados.
+- Scikit-learn: treinamento, preparação e avaliação do modelo.
+- Matplotlib e Seaborn: visualização de dados.
+- Joblib: armazenamento e carregamento do modelo.
+- Streamlit: desenvolvimento da interface.
+- FastAPI: criação da API de inferência.
+- Uvicorn: servidor responsável por executar a API.
+- Requests: comunicação HTTP entre Streamlit e API.
+- Pydantic: validação dos dados recebidos pela API.
+- Google Drive: armazenamento dos arquivos do projeto.
+- GitHub: controle de versão e disponibilização do código.
 
-O modelo treinado foi salvo no formato `.joblib`, permitindo sua utilização na aplicação sem a necessidade de executar novamente o treinamento.
-
-## 4. Aplicação
-
-A interface foi desenvolvida com Streamlit. O usuário informa características acadêmicas e socioeconômicas do estudante, e a aplicação utiliza o modelo salvo para calcular a probabilidade estimada de evasão.
-
-A aplicação também possui um mecanismo de monitoramento que registra informações das previsões realizadas, como:
-
-- Data e horário;
-- Probabilidade estimada de evasão;
-- Classificação apresentada;
-- Tempo de execução da previsão.
-
-## 5. Estrutura do projeto
+## 4. Estrutura do projeto
 
 ```text
-desafio-04-predicao-evasao/
+Desafio_04_Machine_Learning_Evasao/
 │
+├── api.py
 ├── app.py
+├── app_backup_antes_api.py
 ├── modelo_regressao_logistica.joblib
 ├── requirements.txt
 ├── README.md
 │
-├── dados/
-├── documentacao/
-├── evidencias/
-├── modelos/
-├── notebooks/
 └── resultados/
+    └── monitoramento.csv
 ```
 
-As pastas organizam os dados, documentos, evidências, modelos, notebooks e resultados do projeto. Nem todas precisam estar presentes na versão publicada no GitHub.
+O arquivo do modelo contém o pipeline de Regressão Logística treinado e os componentes necessários para preparar os dados antes da previsão.
 
-## 6. Como executar a aplicação
+O arquivo `api.py` disponibiliza os serviços de inferência e registra as previsões realizadas.
 
-Instale as dependências:
+O arquivo `app.py` implementa a interface utilizada para inserir os dados dos estudantes e visualizar os resultados.
+
+O arquivo `monitoramento.csv` armazena o histórico das previsões registradas.
+
+## 5. Arquitetura da aplicação
+
+O funcionamento ocorre por meio da integração entre os seguintes componentes:
+
+1. Streamlit: recebe os dados preenchidos pelo usuário.
+2. FastAPI: recebe a solicitação enviada pela interface.
+3. Modelo de Machine Learning: processa os dados e calcula a probabilidade de evasão.
+4. FastAPI: devolve a classificação e a probabilidade à interface.
+5. Monitoramento: registra a previsão, sua data e hora e o tempo de execução.
+
+## 6. Instalação das dependências
+
+Com o Python instalado e o terminal aberto na pasta do projeto, execute:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Em seguida, execute:
+## 7. Como executar a aplicação
+
+A API e o Streamlit devem ser iniciados em dois terminais separados.
+
+### 7.1. Iniciar a API
+
+No primeiro terminal, execute:
+
+```bash
+uvicorn api:app --host 127.0.0.1 --port 8000
+```
+
+A API ficará disponível em:
+
+- Serviço principal: http://127.0.0.1:8000
+- Documentação interativa: http://127.0.0.1:8000/docs
+- Verificação de saúde: http://127.0.0.1:8000/saude
+
+### 7.2. Iniciar o Streamlit
+
+No segundo terminal, execute:
 
 ```bash
 streamlit run app.py
 ```
 
-O arquivo `modelo_regressao_logistica.joblib` deve estar disponível no local esperado pelo código da aplicação.
+A interface poderá ser acessada pelo endereço local apresentado pelo Streamlit, normalmente:
 
-## 7. Monitoramento
+http://localhost:8501
 
-A aplicação possui um mecanismo básico de monitoramento que registra as previsões realizadas em um arquivo CSV.
+É necessário manter a API em execução para que a interface consiga solicitar as previsões.
 
-Esses registros permitem acompanhar a quantidade de previsões, as classificações apresentadas, as probabilidades estimadas e o tempo de execução.
+## 8. Endpoints da API
 
-## 8. Objetivo acadêmico
+| Método | Endpoint | Função |
+|---|---|---|
+| GET | / | Apresenta informações básicas da API |
+| GET | /saude | Verifica se a API e o modelo estão disponíveis |
+| GET | /opcoes | Retorna as opções dos campos categóricos |
+| POST | /prever | Recebe os dados e realiza a previsão |
 
-O projeto demonstra a aplicação de conceitos de Machine Learning e serviços de desenvolvimento e armazenamento em nuvem em um cenário educacional, integrando treinamento de modelos, disponibilização de inferência e monitoramento básico.
+A documentação interativa dos endpoints está disponível em `/docs`.
+
+## 9. Monitoramento
+
+Cada previsão realizada pela API é registrada automaticamente no arquivo:
+
+`resultados/monitoramento.csv`
+
+São armazenadas informações como:
+
+- Data e hora da previsão.
+- Probabilidade estimada de evasão.
+- Classificação do resultado.
+- Tempo de execução do modelo.
+
+O monitoramento permite acompanhar o histórico de utilização do serviço.
+
+## 10. Infraestrutura e limitações
+
+O desenvolvimento e os testes foram realizados no Google Colab, utilizando o Google Drive para armazenar os arquivos do projeto.
+
+A interface Streamlit e a API FastAPI foram executadas simultaneamente no ambiente de desenvolvimento. O Cloudflare Tunnel foi utilizado para permitir o acesso externo temporário à interface.
+
+A aplicação depende da disponibilidade do ambiente de execução. Portanto, a interrupção da sessão do Google Colab encerra os serviços executados nela.
+
+O projeto não representa uma implantação permanente em nuvem nem utiliza, nesta versão, um serviço gerenciado de inferência.
+
+## 11. Considerações finais
+
+O projeto demonstra a aplicação de técnicas de Machine Learning em um cenário educacional, integrando um modelo de classificação a uma interface e a uma API de inferência.
+
+A solução permite estimar o risco de evasão e registrar as previsões realizadas, podendo servir como ferramenta de apoio ao acompanhamento acadêmico e à tomada de decisões pelas instituições de ensino.

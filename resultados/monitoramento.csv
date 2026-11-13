@@ -1,0 +1,705 @@
+data_hora,probabilidade_evasao,classificacao,tempo_execucao_segundos
+2026-11-12T20:10:34+00:00,0.3378,Sem classificação de risco de evasão,0.0329
+2026-11-12T20:16:57+00:00,0.6431,Risco de evasão,0.0264
+2026-11-12T20:22:48+00:00,0.0536,Sem classificação de risco de evasão,0.0453
+2026-11-12T20:22:48+00:00,0.3885,Sem classificação de risco de evasão,0.1338
+2026-11-12T20:22:48+00:00,0.3246,Sem classificação de risco de evasão,0.0756
+2026-11-12T20:22:48+00:00,0.4107,Sem classificação de risco de evasão,0.0303
+2026-11-12T20:22:49+00:00,0.2295,Sem classificação de risco de evasão,0.0752
+2026-11-12T20:22:50+00:00,0.3725,Sem classificação de risco de evasão,0.0707
+2026-11-12T20:22:50+00:00,0.6162,Risco de evasão,0.0338
+2026-11-12T20:22:50+00:00,0.0897,Sem classificação de risco de evasão,0.0364
+2026-11-12T20:22:50+00:00,0.0818,Sem classificação de risco de evasão,0.0345
+2026-11-12T20:22:51+00:00,0.3115,Sem classificação de risco de evasão,0.0376
+2026-11-12T20:22:51+00:00,0.1478,Sem classificação de risco de evasão,0.0318
+2026-11-12T20:22:51+00:00,0.2166,Sem classificação de risco de evasão,0.0322
+2026-11-12T20:22:51+00:00,0.174,Sem classificação de risco de evasão,0.0318
+2026-11-12T20:22:51+00:00,0.0602,Sem classificação de risco de evasão,0.0297
+2026-11-12T20:22:51+00:00,0.1372,Sem classificação de risco de evasão,0.0323
+2026-11-12T20:22:51+00:00,0.1946,Sem classificação de risco de evasão,0.0325
+2026-11-12T20:22:51+00:00,0.2077,Sem classificação de risco de evasão,0.0266
+2026-11-12T20:22:51+00:00,0.0578,Sem classificação de risco de evasão,0.0295
+2026-11-12T20:22:51+00:00,0.0318,Sem classificação de risco de evasão,0.0307
+2026-11-12T20:22:52+00:00,0.0434,Sem classificação de risco de evasão,0.0324
+2026-11-12T20:22:52+00:00,0.0836,Sem classificação de risco de evasão,0.0293
+2026-11-12T20:22:52+00:00,0.0541,Sem classificação de risco de evasão,0.032
+2026-11-12T20:22:52+00:00,0.1992,Sem classificação de risco de evasão,0.0217
+2026-11-12T20:22:52+00:00,0.2922,Sem classificação de risco de evasão,0.0219
+2026-11-12T20:22:52+00:00,0.0425,Sem classificação de risco de evasão,0.0225
+2026-11-12T20:22:52+00:00,0.018,Sem classificação de risco de evasão,0.0216
+2026-11-12T20:22:52+00:00,0.2198,Sem classificação de risco de evasão,0.0295
+2026-11-12T20:22:52+00:00,0.0227,Sem classificação de risco de evasão,0.0203
+2026-11-12T20:22:52+00:00,0.3424,Sem classificação de risco de evasão,0.0208
+2026-11-12T20:22:52+00:00,0.1715,Sem classificação de risco de evasão,0.0212
+2026-11-12T20:22:52+00:00,0.1565,Sem classificação de risco de evasão,0.0215
+2026-11-12T20:22:52+00:00,0.3749,Sem classificação de risco de evasão,0.0213
+2026-11-12T20:22:52+00:00,0.2799,Sem classificação de risco de evasão,0.0212
+2026-11-12T20:22:52+00:00,0.1636,Sem classificação de risco de evasão,0.0237
+2026-11-12T20:22:53+00:00,0.1879,Sem classificação de risco de evasão,0.0245
+2026-11-12T20:22:53+00:00,0.7551,Risco de evasão,0.0213
+2026-11-12T20:22:53+00:00,0.6904,Risco de evasão,0.0211
+2026-11-12T20:22:53+00:00,0.043,Sem classificação de risco de evasão,0.0224
+2026-11-12T20:22:53+00:00,0.1572,Sem classificação de risco de evasão,0.0219
+2026-11-12T20:22:53+00:00,0.1961,Sem classificação de risco de evasão,0.0208
+2026-11-12T20:22:53+00:00,0.6627,Risco de evasão,0.0218
+2026-11-12T20:22:53+00:00,0.1704,Sem classificação de risco de evasão,0.0211
+2026-11-12T20:22:53+00:00,0.7027,Risco de evasão,0.0268
+2026-11-12T20:22:53+00:00,0.2594,Sem classificação de risco de evasão,0.0205
+2026-11-12T20:22:53+00:00,0.0591,Sem classificação de risco de evasão,0.0207
+2026-11-12T20:22:53+00:00,0.0418,Sem classificação de risco de evasão,0.0216
+2026-11-12T20:22:53+00:00,0.3214,Sem classificação de risco de evasão,0.0214
+2026-11-12T20:22:53+00:00,0.0662,Sem classificação de risco de evasão,0.0204
+2026-11-12T20:22:53+00:00,0.1025,Sem classificação de risco de evasão,0.0204
+2026-11-12T20:22:53+00:00,0.0571,Sem classificação de risco de evasão,0.0238
+2026-11-12T20:30:45+00:00,0.0536,Sem classificação de risco de evasão,0.0276
+2026-11-12T20:30:45+00:00,0.3885,Sem classificação de risco de evasão,0.0275
+2026-11-12T20:30:45+00:00,0.3246,Sem classificação de risco de evasão,0.0264
+2026-11-12T20:30:45+00:00,0.4107,Sem classificação de risco de evasão,0.0287
+2026-11-12T20:30:45+00:00,0.2295,Sem classificação de risco de evasão,0.0324
+2026-11-12T20:30:45+00:00,0.3725,Sem classificação de risco de evasão,0.0208
+2026-11-12T20:30:45+00:00,0.6162,Risco de evasão,0.0253
+2026-11-12T20:30:45+00:00,0.0897,Sem classificação de risco de evasão,0.0202
+2026-11-12T20:30:45+00:00,0.0818,Sem classificação de risco de evasão,0.024
+2026-11-12T20:30:45+00:00,0.3115,Sem classificação de risco de evasão,0.021
+2026-11-12T20:30:45+00:00,0.1478,Sem classificação de risco de evasão,0.0205
+2026-11-12T20:30:45+00:00,0.2166,Sem classificação de risco de evasão,0.0215
+2026-11-12T20:30:46+00:00,0.174,Sem classificação de risco de evasão,0.0226
+2026-11-12T20:30:46+00:00,0.0602,Sem classificação de risco de evasão,0.0321
+2026-11-12T20:30:46+00:00,0.1372,Sem classificação de risco de evasão,0.0298
+2026-11-12T20:30:46+00:00,0.1946,Sem classificação de risco de evasão,0.0294
+2026-11-12T20:30:46+00:00,0.2077,Sem classificação de risco de evasão,0.0296
+2026-11-12T20:30:46+00:00,0.0578,Sem classificação de risco de evasão,0.0295
+2026-11-12T20:30:46+00:00,0.0318,Sem classificação de risco de evasão,0.0728
+2026-11-12T20:30:46+00:00,0.0434,Sem classificação de risco de evasão,0.0652
+2026-11-12T20:30:46+00:00,0.0836,Sem classificação de risco de evasão,0.033
+2026-11-12T20:30:47+00:00,0.0541,Sem classificação de risco de evasão,0.0308
+2026-11-12T20:30:47+00:00,0.1992,Sem classificação de risco de evasão,0.0331
+2026-11-12T20:30:47+00:00,0.2922,Sem classificação de risco de evasão,0.047
+2026-11-12T20:30:47+00:00,0.0425,Sem classificação de risco de evasão,0.0299
+2026-11-12T20:30:47+00:00,0.018,Sem classificação de risco de evasão,0.0291
+2026-11-12T20:30:47+00:00,0.2198,Sem classificação de risco de evasão,0.0303
+2026-11-12T20:30:47+00:00,0.0227,Sem classificação de risco de evasão,0.0294
+2026-11-12T20:30:47+00:00,0.3424,Sem classificação de risco de evasão,0.0326
+2026-11-12T20:30:47+00:00,0.1715,Sem classificação de risco de evasão,0.0295
+2026-11-12T20:30:47+00:00,0.1565,Sem classificação de risco de evasão,0.0314
+2026-11-12T20:30:48+00:00,0.3749,Sem classificação de risco de evasão,0.0287
+2026-11-12T20:30:48+00:00,0.2799,Sem classificação de risco de evasão,0.0306
+2026-11-12T20:30:48+00:00,0.1636,Sem classificação de risco de evasão,0.0287
+2026-11-12T20:30:48+00:00,0.1879,Sem classificação de risco de evasão,0.0301
+2026-11-12T20:30:48+00:00,0.7551,Risco de evasão,0.0284
+2026-11-12T20:30:48+00:00,0.6904,Risco de evasão,0.0334
+2026-11-12T20:30:48+00:00,0.043,Sem classificação de risco de evasão,0.0295
+2026-11-12T20:30:48+00:00,0.1572,Sem classificação de risco de evasão,0.0274
+2026-11-12T20:30:48+00:00,0.1961,Sem classificação de risco de evasão,0.0517
+2026-11-12T20:30:48+00:00,0.6627,Risco de evasão,0.0291
+2026-11-12T20:30:48+00:00,0.1704,Sem classificação de risco de evasão,0.0299
+2026-11-12T20:30:49+00:00,0.7027,Risco de evasão,0.0298
+2026-11-12T20:30:49+00:00,0.2594,Sem classificação de risco de evasão,0.0289
+2026-11-12T20:30:49+00:00,0.0591,Sem classificação de risco de evasão,0.0252
+2026-11-12T20:30:49+00:00,0.0418,Sem classificação de risco de evasão,0.0249
+2026-11-12T20:30:49+00:00,0.3214,Sem classificação de risco de evasão,0.029
+2026-11-12T20:30:49+00:00,0.0662,Sem classificação de risco de evasão,0.0286
+2026-11-12T20:30:49+00:00,0.1025,Sem classificação de risco de evasão,0.0288
+2026-11-12T20:30:49+00:00,0.0571,Sem classificação de risco de evasão,0.0293
+2026-11-12T20:30:49+00:00,0.0849,Sem classificação de risco de evasão,0.0417
+2026-11-12T20:30:49+00:00,0.0273,Sem classificação de risco de evasão,0.03
+2026-11-12T20:30:49+00:00,0.0881,Sem classificação de risco de evasão,0.0302
+2026-11-12T20:30:50+00:00,0.5926,Risco de evasão,0.0484
+2026-11-12T20:30:50+00:00,0.4869,Sem classificação de risco de evasão,0.03
+2026-11-12T20:30:50+00:00,0.0179,Sem classificação de risco de evasão,0.0292
+2026-11-12T20:30:50+00:00,0.0364,Sem classificação de risco de evasão,0.1042
+2026-11-12T20:30:50+00:00,0.4082,Sem classificação de risco de evasão,0.1254
+2026-11-12T20:30:51+00:00,0.0119,Sem classificação de risco de evasão,0.0249
+2026-11-12T20:30:51+00:00,0.3304,Sem classificação de risco de evasão,0.0293
+2026-11-12T20:30:51+00:00,0.366,Sem classificação de risco de evasão,0.0307
+2026-11-12T20:30:51+00:00,0.0646,Sem classificação de risco de evasão,0.0293
+2026-11-12T20:30:51+00:00,0.1011,Sem classificação de risco de evasão,0.0307
+2026-11-12T20:30:51+00:00,0.7051,Risco de evasão,0.03
+2026-11-12T20:30:51+00:00,0.1758,Sem classificação de risco de evasão,0.0288
+2026-11-12T20:30:51+00:00,0.2621,Sem classificação de risco de evasão,0.0351
+2026-11-12T20:30:51+00:00,0.0879,Sem classificação de risco de evasão,0.0635
+2026-11-12T20:30:52+00:00,0.5116,Risco de evasão,0.0286
+2026-11-12T20:30:52+00:00,0.0202,Sem classificação de risco de evasão,0.0291
+2026-11-12T20:30:52+00:00,0.0727,Sem classificação de risco de evasão,0.0292
+2026-11-12T20:30:52+00:00,0.4731,Sem classificação de risco de evasão,0.0281
+2026-11-12T20:30:52+00:00,0.3437,Sem classificação de risco de evasão,0.0272
+2026-11-12T20:30:52+00:00,0.3075,Sem classificação de risco de evasão,0.0281
+2026-11-12T20:30:52+00:00,0.2966,Sem classificação de risco de evasão,0.0363
+2026-11-12T20:30:52+00:00,0.1557,Sem classificação de risco de evasão,0.031
+2026-11-12T20:30:52+00:00,0.042,Sem classificação de risco de evasão,0.0295
+2026-11-12T20:30:52+00:00,0.0477,Sem classificação de risco de evasão,0.0297
+2026-11-12T20:30:52+00:00,0.0479,Sem classificação de risco de evasão,0.0302
+2026-11-12T20:30:53+00:00,0.0963,Sem classificação de risco de evasão,0.0336
+2026-11-12T20:30:53+00:00,0.1468,Sem classificação de risco de evasão,0.0303
+2026-11-12T20:30:53+00:00,0.0807,Sem classificação de risco de evasão,0.0264
+2026-11-12T20:30:53+00:00,0.2035,Sem classificação de risco de evasão,0.0322
+2026-11-12T20:30:53+00:00,0.6991,Risco de evasão,0.0311
+2026-11-12T20:30:53+00:00,0.3437,Sem classificação de risco de evasão,0.0319
+2026-11-12T20:30:53+00:00,0.123,Sem classificação de risco de evasão,0.0309
+2026-11-12T20:30:53+00:00,0.0197,Sem classificação de risco de evasão,0.0326
+2026-11-12T20:30:53+00:00,0.0878,Sem classificação de risco de evasão,0.0276
+2026-11-12T20:30:53+00:00,0.0135,Sem classificação de risco de evasão,0.02
+2026-11-12T20:30:53+00:00,0.5874,Risco de evasão,0.0224
+2026-11-12T20:30:53+00:00,0.403,Sem classificação de risco de evasão,0.0192
+2026-11-12T20:30:54+00:00,0.4388,Sem classificação de risco de evasão,0.0264
+2026-11-12T20:30:54+00:00,0.4377,Sem classificação de risco de evasão,0.0203
+2026-11-12T20:30:54+00:00,0.2261,Sem classificação de risco de evasão,0.0194
+2026-11-12T20:30:54+00:00,0.1105,Sem classificação de risco de evasão,0.0247
+2026-11-12T20:30:54+00:00,0.429,Sem classificação de risco de evasão,0.0207
+2026-11-12T20:30:54+00:00,0.1499,Sem classificação de risco de evasão,0.0204
+2026-11-12T20:30:54+00:00,0.2548,Sem classificação de risco de evasão,0.0224
+2026-11-12T20:30:54+00:00,0.1694,Sem classificação de risco de evasão,0.02
+2026-11-12T20:30:54+00:00,0.3234,Sem classificação de risco de evasão,0.0208
+2026-11-12T20:30:54+00:00,0.3992,Sem classificação de risco de evasão,0.0198
+2026-11-13T16:36:40+00:00,0.0536,Sem classificação de risco de evasão,0.0973
+2026-11-13T16:36:40+00:00,0.3885,Sem classificação de risco de evasão,0.048
+2026-11-13T16:36:40+00:00,0.3246,Sem classificação de risco de evasão,0.063
+2026-11-13T16:36:40+00:00,0.4107,Sem classificação de risco de evasão,0.072
+2026-11-13T16:36:40+00:00,0.2295,Sem classificação de risco de evasão,0.0231
+2026-11-13T16:36:40+00:00,0.3725,Sem classificação de risco de evasão,0.066
+2026-11-13T16:36:41+00:00,0.6162,Risco de evasão,0.1101
+2026-11-13T16:36:41+00:00,0.0897,Sem classificação de risco de evasão,0.1042
+2026-11-13T16:36:41+00:00,0.0818,Sem classificação de risco de evasão,0.057
+2026-11-13T16:36:41+00:00,0.3115,Sem classificação de risco de evasão,0.0404
+2026-11-13T16:36:41+00:00,0.1478,Sem classificação de risco de evasão,0.0604
+2026-11-13T16:36:42+00:00,0.2166,Sem classificação de risco de evasão,0.0599
+2026-11-13T16:36:42+00:00,0.174,Sem classificação de risco de evasão,0.0665
+2026-11-13T16:36:42+00:00,0.0602,Sem classificação de risco de evasão,0.0499
+2026-11-13T16:36:42+00:00,0.1372,Sem classificação de risco de evasão,0.0465
+2026-11-13T16:36:42+00:00,0.1946,Sem classificação de risco de evasão,0.0481
+2026-11-13T16:36:43+00:00,0.2077,Sem classificação de risco de evasão,0.0576
+2026-11-13T16:36:43+00:00,0.0578,Sem classificação de risco de evasão,0.0855
+2026-11-13T16:36:43+00:00,0.0318,Sem classificação de risco de evasão,0.025
+2026-11-13T16:36:43+00:00,0.0434,Sem classificação de risco de evasão,0.052
+2026-11-13T16:36:43+00:00,0.0836,Sem classificação de risco de evasão,0.0214
+2026-11-13T16:36:43+00:00,0.0541,Sem classificação de risco de evasão,0.076
+2026-11-13T16:36:44+00:00,0.1992,Sem classificação de risco de evasão,0.074
+2026-11-13T16:36:44+00:00,0.2922,Sem classificação de risco de evasão,0.0756
+2026-11-13T16:36:44+00:00,0.0425,Sem classificação de risco de evasão,0.038
+2026-11-13T16:36:44+00:00,0.018,Sem classificação de risco de evasão,0.0245
+2026-11-13T16:36:44+00:00,0.2198,Sem classificação de risco de evasão,0.0241
+2026-11-13T16:36:44+00:00,0.0227,Sem classificação de risco de evasão,0.0205
+2026-11-13T16:36:44+00:00,0.3424,Sem classificação de risco de evasão,0.0208
+2026-11-13T16:36:45+00:00,0.1715,Sem classificação de risco de evasão,0.043
+2026-11-13T16:36:45+00:00,0.1565,Sem classificação de risco de evasão,0.0216
+2026-11-13T16:36:45+00:00,0.3749,Sem classificação de risco de evasão,0.0223
+2026-11-13T16:36:45+00:00,0.2799,Sem classificação de risco de evasão,0.0312
+2026-11-13T16:36:45+00:00,0.1636,Sem classificação de risco de evasão,0.028
+2026-11-13T16:36:45+00:00,0.1879,Sem classificação de risco de evasão,0.0223
+2026-11-13T16:36:45+00:00,0.7551,Risco de evasão,0.0237
+2026-11-13T16:36:45+00:00,0.6904,Risco de evasão,0.0295
+2026-11-13T16:36:45+00:00,0.043,Sem classificação de risco de evasão,0.0235
+2026-11-13T16:36:45+00:00,0.1572,Sem classificação de risco de evasão,0.0237
+2026-11-13T16:36:45+00:00,0.1961,Sem classificação de risco de evasão,0.0276
+2026-11-13T16:36:45+00:00,0.6627,Risco de evasão,0.0193
+2026-11-13T16:36:45+00:00,0.1704,Sem classificação de risco de evasão,0.0227
+2026-11-13T16:36:46+00:00,0.7027,Risco de evasão,0.0227
+2026-11-13T16:36:46+00:00,0.2594,Sem classificação de risco de evasão,0.0375
+2026-11-13T16:36:46+00:00,0.0591,Sem classificação de risco de evasão,0.0345
+2026-11-13T16:36:46+00:00,0.0418,Sem classificação de risco de evasão,0.0202
+2026-11-13T16:36:46+00:00,0.3214,Sem classificação de risco de evasão,0.0213
+2026-11-13T16:36:46+00:00,0.0662,Sem classificação de risco de evasão,0.0216
+2026-11-13T16:36:46+00:00,0.1025,Sem classificação de risco de evasão,0.0209
+2026-11-13T16:36:46+00:00,0.0571,Sem classificação de risco de evasão,0.0323
+2026-11-13T16:37:15+00:00,0.0536,Sem classificação de risco de evasão,0.0153
+2026-11-13T16:37:15+00:00,0.3885,Sem classificação de risco de evasão,0.015
+2026-11-13T16:37:15+00:00,0.3246,Sem classificação de risco de evasão,0.0148
+2026-11-13T16:37:15+00:00,0.4107,Sem classificação de risco de evasão,0.0145
+2026-11-13T16:37:15+00:00,0.2295,Sem classificação de risco de evasão,0.0154
+2026-11-13T16:37:15+00:00,0.3725,Sem classificação de risco de evasão,0.0175
+2026-11-13T16:37:15+00:00,0.6162,Risco de evasão,0.0196
+2026-11-13T16:37:15+00:00,0.0897,Sem classificação de risco de evasão,0.0145
+2026-11-13T16:37:15+00:00,0.0818,Sem classificação de risco de evasão,0.014
+2026-11-13T16:37:15+00:00,0.3115,Sem classificação de risco de evasão,0.0142
+2026-11-13T16:37:15+00:00,0.1478,Sem classificação de risco de evasão,0.016
+2026-11-13T16:37:16+00:00,0.2166,Sem classificação de risco de evasão,0.0152
+2026-11-13T16:37:16+00:00,0.174,Sem classificação de risco de evasão,0.0144
+2026-11-13T16:37:16+00:00,0.0602,Sem classificação de risco de evasão,0.0142
+2026-11-13T16:37:16+00:00,0.1372,Sem classificação de risco de evasão,0.0177
+2026-11-13T16:37:16+00:00,0.1946,Sem classificação de risco de evasão,0.0154
+2026-11-13T16:37:16+00:00,0.2077,Sem classificação de risco de evasão,0.0143
+2026-11-13T16:37:16+00:00,0.0578,Sem classificação de risco de evasão,0.0156
+2026-11-13T16:37:16+00:00,0.0318,Sem classificação de risco de evasão,0.0146
+2026-11-13T16:37:16+00:00,0.0434,Sem classificação de risco de evasão,0.0144
+2026-11-13T16:37:16+00:00,0.0836,Sem classificação de risco de evasão,0.0166
+2026-11-13T16:37:16+00:00,0.0541,Sem classificação de risco de evasão,0.0139
+2026-11-13T16:37:16+00:00,0.1992,Sem classificação de risco de evasão,0.0147
+2026-11-13T16:37:16+00:00,0.2922,Sem classificação de risco de evasão,0.0154
+2026-11-13T16:37:16+00:00,0.0425,Sem classificação de risco de evasão,0.0138
+2026-11-13T16:37:16+00:00,0.018,Sem classificação de risco de evasão,0.0168
+2026-11-13T16:37:16+00:00,0.2198,Sem classificação de risco de evasão,0.0149
+2026-11-13T16:37:16+00:00,0.0227,Sem classificação de risco de evasão,0.0165
+2026-11-13T16:37:16+00:00,0.3424,Sem classificação de risco de evasão,0.0138
+2026-11-13T16:37:16+00:00,0.1715,Sem classificação de risco de evasão,0.0214
+2026-11-13T16:37:16+00:00,0.1565,Sem classificação de risco de evasão,0.014
+2026-11-13T16:37:16+00:00,0.3749,Sem classificação de risco de evasão,0.0147
+2026-11-13T16:37:16+00:00,0.2799,Sem classificação de risco de evasão,0.0141
+2026-11-13T16:37:17+00:00,0.1636,Sem classificação de risco de evasão,0.0142
+2026-11-13T16:37:17+00:00,0.1879,Sem classificação de risco de evasão,0.0142
+2026-11-13T16:37:17+00:00,0.7551,Risco de evasão,0.0175
+2026-11-13T16:37:17+00:00,0.6904,Risco de evasão,0.0142
+2026-11-13T16:37:17+00:00,0.043,Sem classificação de risco de evasão,0.0162
+2026-11-13T16:37:17+00:00,0.1572,Sem classificação de risco de evasão,0.015
+2026-11-13T16:37:17+00:00,0.1961,Sem classificação de risco de evasão,0.0157
+2026-11-13T16:37:17+00:00,0.6627,Risco de evasão,0.016
+2026-11-13T16:37:17+00:00,0.1704,Sem classificação de risco de evasão,0.0139
+2026-11-13T16:37:17+00:00,0.7027,Risco de evasão,0.0159
+2026-11-13T16:37:17+00:00,0.2594,Sem classificação de risco de evasão,0.0144
+2026-11-13T16:37:17+00:00,0.0591,Sem classificação de risco de evasão,0.0147
+2026-11-13T16:37:17+00:00,0.0418,Sem classificação de risco de evasão,0.0162
+2026-11-13T16:37:17+00:00,0.3214,Sem classificação de risco de evasão,0.0141
+2026-11-13T16:37:17+00:00,0.0662,Sem classificação de risco de evasão,0.0151
+2026-11-13T16:37:17+00:00,0.1025,Sem classificação de risco de evasão,0.0142
+2026-11-13T16:37:17+00:00,0.0571,Sem classificação de risco de evasão,0.0144
+2026-11-13T16:37:17+00:00,0.0849,Sem classificação de risco de evasão,0.0142
+2026-11-13T16:37:17+00:00,0.0273,Sem classificação de risco de evasão,0.0155
+2026-11-13T16:37:17+00:00,0.0881,Sem classificação de risco de evasão,0.0171
+2026-11-13T16:37:17+00:00,0.5926,Risco de evasão,0.0139
+2026-11-13T16:37:17+00:00,0.4869,Sem classificação de risco de evasão,0.0139
+2026-11-13T16:37:18+00:00,0.0179,Sem classificação de risco de evasão,0.0161
+2026-11-13T16:37:18+00:00,0.0364,Sem classificação de risco de evasão,0.0159
+2026-11-13T16:37:18+00:00,0.4082,Sem classificação de risco de evasão,0.0146
+2026-11-13T16:37:18+00:00,0.0119,Sem classificação de risco de evasão,0.0144
+2026-11-13T16:37:18+00:00,0.3304,Sem classificação de risco de evasão,0.0144
+2026-11-13T16:37:18+00:00,0.366,Sem classificação de risco de evasão,0.0176
+2026-11-13T16:37:18+00:00,0.0646,Sem classificação de risco de evasão,0.014
+2026-11-13T16:37:18+00:00,0.1011,Sem classificação de risco de evasão,0.0144
+2026-11-13T16:37:18+00:00,0.7051,Risco de evasão,0.0151
+2026-11-13T16:37:18+00:00,0.1758,Sem classificação de risco de evasão,0.0144
+2026-11-13T16:37:18+00:00,0.2621,Sem classificação de risco de evasão,0.0167
+2026-11-13T16:37:18+00:00,0.0879,Sem classificação de risco de evasão,0.0136
+2026-11-13T16:37:18+00:00,0.5116,Risco de evasão,0.0153
+2026-11-13T16:37:18+00:00,0.0202,Sem classificação de risco de evasão,0.0149
+2026-11-13T16:37:18+00:00,0.0727,Sem classificação de risco de evasão,0.0145
+2026-11-13T16:37:18+00:00,0.4731,Sem classificação de risco de evasão,0.0174
+2026-11-13T16:37:18+00:00,0.3437,Sem classificação de risco de evasão,0.0147
+2026-11-13T16:37:18+00:00,0.3075,Sem classificação de risco de evasão,0.014
+2026-11-13T16:37:18+00:00,0.2966,Sem classificação de risco de evasão,0.0149
+2026-11-13T16:37:18+00:00,0.1557,Sem classificação de risco de evasão,0.0148
+2026-11-13T16:37:18+00:00,0.042,Sem classificação de risco de evasão,0.0207
+2026-11-13T16:37:18+00:00,0.0477,Sem classificação de risco de evasão,0.0148
+2026-11-13T16:37:18+00:00,0.0479,Sem classificação de risco de evasão,0.0139
+2026-11-13T16:37:19+00:00,0.0963,Sem classificação de risco de evasão,0.0138
+2026-11-13T16:37:19+00:00,0.1468,Sem classificação de risco de evasão,0.0134
+2026-11-13T16:37:19+00:00,0.0807,Sem classificação de risco de evasão,0.0144
+2026-11-13T16:37:19+00:00,0.2035,Sem classificação de risco de evasão,0.0146
+2026-11-13T16:37:19+00:00,0.6991,Risco de evasão,0.016
+2026-11-13T16:37:19+00:00,0.3437,Sem classificação de risco de evasão,0.0144
+2026-11-13T16:37:19+00:00,0.123,Sem classificação de risco de evasão,0.0148
+2026-11-13T16:37:19+00:00,0.0197,Sem classificação de risco de evasão,0.0177
+2026-11-13T16:37:19+00:00,0.0878,Sem classificação de risco de evasão,0.0166
+2026-11-13T16:37:19+00:00,0.0135,Sem classificação de risco de evasão,0.0151
+2026-11-13T16:37:19+00:00,0.5874,Risco de evasão,0.0167
+2026-11-13T16:37:19+00:00,0.403,Sem classificação de risco de evasão,0.0157
+2026-11-13T16:37:19+00:00,0.4388,Sem classificação de risco de evasão,0.0173
+2026-11-13T16:37:19+00:00,0.4377,Sem classificação de risco de evasão,0.0155
+2026-11-13T16:37:19+00:00,0.2261,Sem classificação de risco de evasão,0.0144
+2026-11-13T16:37:19+00:00,0.1105,Sem classificação de risco de evasão,0.0139
+2026-11-13T16:37:19+00:00,0.429,Sem classificação de risco de evasão,0.0139
+2026-11-13T16:37:19+00:00,0.1499,Sem classificação de risco de evasão,0.0135
+2026-11-13T16:37:19+00:00,0.2548,Sem classificação de risco de evasão,0.0148
+2026-11-13T16:37:19+00:00,0.1694,Sem classificação de risco de evasão,0.0143
+2026-11-13T16:37:19+00:00,0.3234,Sem classificação de risco de evasão,0.0143
+2026-11-13T16:37:19+00:00,0.3992,Sem classificação de risco de evasão,0.0166
+2026-11-13T18:41:59+00:00,0.0536,Sem classificação de risco de evasão,0.0202
+2026-11-13T18:41:59+00:00,0.3885,Sem classificação de risco de evasão,0.0148
+2026-11-13T18:41:59+00:00,0.3246,Sem classificação de risco de evasão,0.0145
+2026-11-13T18:41:59+00:00,0.4107,Sem classificação de risco de evasão,0.0141
+2026-11-13T18:42:00+00:00,0.2295,Sem classificação de risco de evasão,0.0181
+2026-11-13T18:42:00+00:00,0.3725,Sem classificação de risco de evasão,0.0148
+2026-11-13T18:42:00+00:00,0.6162,Risco de evasão,0.0149
+2026-11-13T18:42:00+00:00,0.0897,Sem classificação de risco de evasão,0.0162
+2026-11-13T18:42:00+00:00,0.0818,Sem classificação de risco de evasão,0.0163
+2026-11-13T18:42:00+00:00,0.3115,Sem classificação de risco de evasão,0.0176
+2026-11-13T18:42:00+00:00,0.1478,Sem classificação de risco de evasão,0.0149
+2026-11-13T18:42:00+00:00,0.2166,Sem classificação de risco de evasão,0.0146
+2026-11-13T18:42:00+00:00,0.174,Sem classificação de risco de evasão,0.0166
+2026-11-13T18:42:00+00:00,0.0602,Sem classificação de risco de evasão,0.0144
+2026-11-13T18:42:00+00:00,0.1372,Sem classificação de risco de evasão,0.0165
+2026-11-13T18:42:00+00:00,0.1946,Sem classificação de risco de evasão,0.0141
+2026-11-13T18:42:00+00:00,0.2077,Sem classificação de risco de evasão,0.0141
+2026-11-13T18:42:00+00:00,0.0578,Sem classificação de risco de evasão,0.0144
+2026-11-13T18:42:00+00:00,0.0318,Sem classificação de risco de evasão,0.0143
+2026-11-13T18:42:00+00:00,0.0434,Sem classificação de risco de evasão,0.0157
+2026-11-13T18:42:00+00:00,0.0836,Sem classificação de risco de evasão,0.0153
+2026-11-13T18:42:00+00:00,0.0541,Sem classificação de risco de evasão,0.0137
+2026-11-13T18:42:00+00:00,0.1992,Sem classificação de risco de evasão,0.0151
+2026-11-13T18:42:00+00:00,0.2922,Sem classificação de risco de evasão,0.0143
+2026-11-13T18:42:01+00:00,0.0425,Sem classificação de risco de evasão,0.0219
+2026-11-13T18:42:01+00:00,0.018,Sem classificação de risco de evasão,0.0155
+2026-11-13T18:42:01+00:00,0.2198,Sem classificação de risco de evasão,0.0147
+2026-11-13T18:42:01+00:00,0.0227,Sem classificação de risco de evasão,0.0143
+2026-11-13T18:42:01+00:00,0.3424,Sem classificação de risco de evasão,0.0157
+2026-11-13T18:42:01+00:00,0.1715,Sem classificação de risco de evasão,0.0185
+2026-11-13T18:42:01+00:00,0.1565,Sem classificação de risco de evasão,0.017
+2026-11-13T18:42:01+00:00,0.3749,Sem classificação de risco de evasão,0.0139
+2026-11-13T18:42:01+00:00,0.2799,Sem classificação de risco de evasão,0.0162
+2026-11-13T18:42:01+00:00,0.1636,Sem classificação de risco de evasão,0.0144
+2026-11-13T18:42:01+00:00,0.1879,Sem classificação de risco de evasão,0.018
+2026-11-13T18:42:01+00:00,0.7551,Risco de evasão,0.0168
+2026-11-13T18:42:01+00:00,0.6904,Risco de evasão,0.0173
+2026-11-13T18:42:01+00:00,0.043,Sem classificação de risco de evasão,0.0156
+2026-11-13T18:42:01+00:00,0.1572,Sem classificação de risco de evasão,0.0146
+2026-11-13T18:42:01+00:00,0.1961,Sem classificação de risco de evasão,0.0133
+2026-11-13T18:42:01+00:00,0.6627,Risco de evasão,0.014
+2026-11-13T18:42:01+00:00,0.1704,Sem classificação de risco de evasão,0.0151
+2026-11-13T18:42:01+00:00,0.7027,Risco de evasão,0.0144
+2026-11-13T18:42:01+00:00,0.2594,Sem classificação de risco de evasão,0.0151
+2026-11-13T18:42:01+00:00,0.0591,Sem classificação de risco de evasão,0.0133
+2026-11-13T18:42:02+00:00,0.0418,Sem classificação de risco de evasão,0.0135
+2026-11-13T18:42:02+00:00,0.3214,Sem classificação de risco de evasão,0.0247
+2026-11-13T18:42:02+00:00,0.0662,Sem classificação de risco de evasão,0.0151
+2026-11-13T18:42:02+00:00,0.1025,Sem classificação de risco de evasão,0.014
+2026-11-13T18:42:02+00:00,0.0571,Sem classificação de risco de evasão,0.0151
+2026-11-13T18:42:02+00:00,0.0849,Sem classificação de risco de evasão,0.0141
+2026-11-13T18:42:02+00:00,0.0273,Sem classificação de risco de evasão,0.0145
+2026-11-13T18:42:02+00:00,0.0881,Sem classificação de risco de evasão,0.0146
+2026-11-13T18:42:02+00:00,0.5926,Risco de evasão,0.0162
+2026-11-13T18:42:02+00:00,0.4869,Sem classificação de risco de evasão,0.0134
+2026-11-13T18:42:02+00:00,0.0179,Sem classificação de risco de evasão,0.0147
+2026-11-13T18:42:02+00:00,0.0364,Sem classificação de risco de evasão,0.014
+2026-11-13T18:42:02+00:00,0.4082,Sem classificação de risco de evasão,0.0145
+2026-11-13T18:42:02+00:00,0.0119,Sem classificação de risco de evasão,0.0156
+2026-11-13T18:42:02+00:00,0.3304,Sem classificação de risco de evasão,0.0149
+2026-11-13T18:42:02+00:00,0.366,Sem classificação de risco de evasão,0.0165
+2026-11-13T18:42:02+00:00,0.0646,Sem classificação de risco de evasão,0.0138
+2026-11-13T18:42:02+00:00,0.1011,Sem classificação de risco de evasão,0.0156
+2026-11-13T18:42:02+00:00,0.7051,Risco de evasão,0.0202
+2026-11-13T18:42:02+00:00,0.1758,Sem classificação de risco de evasão,0.0152
+2026-11-13T18:42:02+00:00,0.2621,Sem classificação de risco de evasão,0.0154
+2026-11-13T18:42:02+00:00,0.0879,Sem classificação de risco de evasão,0.0149
+2026-11-13T18:42:03+00:00,0.5116,Risco de evasão,0.0135
+2026-11-13T18:42:03+00:00,0.0202,Sem classificação de risco de evasão,0.0184
+2026-11-13T18:42:03+00:00,0.0727,Sem classificação de risco de evasão,0.0181
+2026-11-13T18:42:03+00:00,0.4731,Sem classificação de risco de evasão,0.0152
+2026-11-13T18:42:03+00:00,0.3437,Sem classificação de risco de evasão,0.0151
+2026-11-13T18:42:03+00:00,0.3075,Sem classificação de risco de evasão,0.015
+2026-11-13T18:42:03+00:00,0.2966,Sem classificação de risco de evasão,0.0171
+2026-11-13T18:42:03+00:00,0.1557,Sem classificação de risco de evasão,0.0151
+2026-11-13T18:42:03+00:00,0.042,Sem classificação de risco de evasão,0.0136
+2026-11-13T18:42:03+00:00,0.0477,Sem classificação de risco de evasão,0.0143
+2026-11-13T18:42:03+00:00,0.0479,Sem classificação de risco de evasão,0.014
+2026-11-13T18:42:03+00:00,0.0963,Sem classificação de risco de evasão,0.0173
+2026-11-13T18:42:03+00:00,0.1468,Sem classificação de risco de evasão,0.0181
+2026-11-13T18:42:03+00:00,0.0807,Sem classificação de risco de evasão,0.0149
+2026-11-13T18:42:03+00:00,0.2035,Sem classificação de risco de evasão,0.0172
+2026-11-13T18:42:03+00:00,0.6991,Risco de evasão,0.0147
+2026-11-13T18:42:03+00:00,0.3437,Sem classificação de risco de evasão,0.0164
+2026-11-13T18:42:03+00:00,0.123,Sem classificação de risco de evasão,0.0145
+2026-11-13T18:42:03+00:00,0.0197,Sem classificação de risco de evasão,0.0142
+2026-11-13T18:42:03+00:00,0.0878,Sem classificação de risco de evasão,0.0135
+2026-11-13T18:42:03+00:00,0.0135,Sem classificação de risco de evasão,0.0147
+2026-11-13T18:42:04+00:00,0.5874,Risco de evasão,0.0164
+2026-11-13T18:42:04+00:00,0.403,Sem classificação de risco de evasão,0.0151
+2026-11-13T18:42:04+00:00,0.4388,Sem classificação de risco de evasão,0.0151
+2026-11-13T18:42:04+00:00,0.4377,Sem classificação de risco de evasão,0.0171
+2026-11-13T18:42:04+00:00,0.2261,Sem classificação de risco de evasão,0.0152
+2026-11-13T18:42:04+00:00,0.1105,Sem classificação de risco de evasão,0.0148
+2026-11-13T18:42:04+00:00,0.429,Sem classificação de risco de evasão,0.0139
+2026-11-13T18:42:04+00:00,0.1499,Sem classificação de risco de evasão,0.0161
+2026-11-13T18:42:04+00:00,0.2548,Sem classificação de risco de evasão,0.0151
+2026-11-13T18:42:04+00:00,0.1694,Sem classificação de risco de evasão,0.0159
+2026-11-13T18:42:04+00:00,0.3234,Sem classificação de risco de evasão,0.0175
+2026-11-13T18:42:04+00:00,0.3992,Sem classificação de risco de evasão,0.0151
+2026-11-13T18:42:04+00:00,0.1623,Sem classificação de risco de evasão,0.0177
+2026-11-13T18:42:04+00:00,0.1532,Sem classificação de risco de evasão,0.0232
+2026-11-13T18:42:04+00:00,0.0796,Sem classificação de risco de evasão,0.0248
+2026-11-13T18:42:04+00:00,0.0385,Sem classificação de risco de evasão,0.0183
+2026-11-13T18:42:04+00:00,0.0239,Sem classificação de risco de evasão,0.0248
+2026-11-13T18:42:04+00:00,0.0487,Sem classificação de risco de evasão,0.0192
+2026-11-13T18:42:04+00:00,0.1306,Sem classificação de risco de evasão,0.0202
+2026-11-13T18:42:05+00:00,0.2867,Sem classificação de risco de evasão,0.0156
+2026-11-13T18:42:05+00:00,0.4835,Sem classificação de risco de evasão,0.0169
+2026-11-13T18:42:05+00:00,0.0117,Sem classificação de risco de evasão,0.0172
+2026-11-13T18:42:05+00:00,0.0744,Sem classificação de risco de evasão,0.0249
+2026-11-13T18:42:05+00:00,0.2871,Sem classificação de risco de evasão,0.0165
+2026-11-13T18:42:05+00:00,0.0321,Sem classificação de risco de evasão,0.0184
+2026-11-13T18:42:05+00:00,0.2786,Sem classificação de risco de evasão,0.017
+2026-11-13T18:42:05+00:00,0.1759,Sem classificação de risco de evasão,0.0256
+2026-11-13T18:42:05+00:00,0.2018,Sem classificação de risco de evasão,0.0239
+2026-11-13T18:42:05+00:00,0.2416,Sem classificação de risco de evasão,0.021
+2026-11-13T18:42:05+00:00,0.048,Sem classificação de risco de evasão,0.02
+2026-11-13T18:42:05+00:00,0.1858,Sem classificação de risco de evasão,0.0179
+2026-11-13T18:42:05+00:00,0.1226,Sem classificação de risco de evasão,0.0155
+2026-11-13T18:42:05+00:00,0.0573,Sem classificação de risco de evasão,0.0156
+2026-11-13T18:42:05+00:00,0.2213,Sem classificação de risco de evasão,0.0151
+2026-11-13T18:42:05+00:00,0.1064,Sem classificação de risco de evasão,0.0237
+2026-11-13T18:42:06+00:00,0.0559,Sem classificação de risco de evasão,0.0158
+2026-11-13T18:42:06+00:00,0.4761,Sem classificação de risco de evasão,0.0168
+2026-11-13T18:42:06+00:00,0.7774,Risco de evasão,0.0188
+2026-11-13T18:42:06+00:00,0.1916,Sem classificação de risco de evasão,0.0193
+2026-11-13T18:42:06+00:00,0.0767,Sem classificação de risco de evasão,0.0191
+2026-11-13T18:42:06+00:00,0.1837,Sem classificação de risco de evasão,0.0194
+2026-11-13T18:42:06+00:00,0.618,Risco de evasão,0.0234
+2026-11-13T18:42:06+00:00,0.4579,Sem classificação de risco de evasão,0.0182
+2026-11-13T18:42:06+00:00,0.1681,Sem classificação de risco de evasão,0.0155
+2026-11-13T18:42:06+00:00,0.6783,Risco de evasão,0.017
+2026-11-13T18:42:06+00:00,0.2778,Sem classificação de risco de evasão,0.0197
+2026-11-13T18:42:06+00:00,0.2024,Sem classificação de risco de evasão,0.0158
+2026-11-13T18:42:06+00:00,0.2389,Sem classificação de risco de evasão,0.0174
+2026-11-13T18:42:06+00:00,0.1333,Sem classificação de risco de evasão,0.016
+2026-11-13T18:42:06+00:00,0.3175,Sem classificação de risco de evasão,0.0158
+2026-11-13T18:42:06+00:00,0.0389,Sem classificação de risco de evasão,0.0225
+2026-11-13T18:42:06+00:00,0.1128,Sem classificação de risco de evasão,0.026
+2026-11-13T18:42:07+00:00,0.0219,Sem classificação de risco de evasão,0.0187
+2026-11-13T18:42:07+00:00,0.0037,Sem classificação de risco de evasão,0.018
+2026-11-13T18:42:07+00:00,0.1006,Sem classificação de risco de evasão,0.0152
+2026-11-13T18:42:07+00:00,0.266,Sem classificação de risco de evasão,0.0164
+2026-11-13T18:42:07+00:00,0.0789,Sem classificação de risco de evasão,0.0222
+2026-11-13T18:42:07+00:00,0.1511,Sem classificação de risco de evasão,0.0239
+2026-11-13T18:42:07+00:00,0.1265,Sem classificação de risco de evasão,0.0247
+2026-11-13T18:42:07+00:00,0.248,Sem classificação de risco de evasão,0.0216
+2026-11-13T18:42:07+00:00,0.0618,Sem classificação de risco de evasão,0.0292
+2026-11-13T18:42:07+00:00,0.2235,Sem classificação de risco de evasão,0.0159
+2026-11-13T18:42:07+00:00,0.9198,Risco de evasão,0.0149
+2026-11-13T18:42:07+00:00,0.0525,Sem classificação de risco de evasão,0.0139
+2026-11-13T18:42:07+00:00,0.0988,Sem classificação de risco de evasão,0.0145
+2026-11-13T18:42:07+00:00,0.0185,Sem classificação de risco de evasão,0.0149
+2026-11-13T18:42:07+00:00,0.1549,Sem classificação de risco de evasão,0.0141
+2026-11-13T18:42:07+00:00,0.2264,Sem classificação de risco de evasão,0.0142
+2026-11-13T18:42:07+00:00,0.5015,Risco de evasão,0.015
+2026-11-13T18:42:07+00:00,0.0426,Sem classificação de risco de evasão,0.0152
+2026-11-13T18:42:08+00:00,0.0152,Sem classificação de risco de evasão,0.017
+2026-11-13T18:42:08+00:00,0.1509,Sem classificação de risco de evasão,0.014
+2026-11-13T18:42:08+00:00,0.1885,Sem classificação de risco de evasão,0.0171
+2026-11-13T18:42:08+00:00,0.0925,Sem classificação de risco de evasão,0.0156
+2026-11-13T18:42:08+00:00,0.4437,Sem classificação de risco de evasão,0.015
+2026-11-13T18:42:08+00:00,0.1506,Sem classificação de risco de evasão,0.0144
+2026-11-13T18:42:08+00:00,0.4402,Sem classificação de risco de evasão,0.0142
+2026-11-13T18:42:08+00:00,0.2425,Sem classificação de risco de evasão,0.0139
+2026-11-13T18:42:08+00:00,0.5049,Risco de evasão,0.0147
+2026-11-13T18:42:08+00:00,0.706,Risco de evasão,0.0203
+2026-11-13T18:42:08+00:00,0.7094,Risco de evasão,0.0153
+2026-11-13T18:42:08+00:00,0.1457,Sem classificação de risco de evasão,0.0148
+2026-11-13T18:42:08+00:00,0.0323,Sem classificação de risco de evasão,0.0161
+2026-11-13T18:42:08+00:00,0.0985,Sem classificação de risco de evasão,0.0145
+2026-11-13T18:42:08+00:00,0.0787,Sem classificação de risco de evasão,0.0144
+2026-11-13T18:42:08+00:00,0.0916,Sem classificação de risco de evasão,0.0166
+2026-11-13T18:42:08+00:00,0.0865,Sem classificação de risco de evasão,0.0139
+2026-11-13T18:42:08+00:00,0.3938,Sem classificação de risco de evasão,0.0133
+2026-11-13T18:42:08+00:00,0.1435,Sem classificação de risco de evasão,0.0138
+2026-11-13T18:42:08+00:00,0.1102,Sem classificação de risco de evasão,0.0148
+2026-11-13T18:42:08+00:00,0.1485,Sem classificação de risco de evasão,0.0154
+2026-11-13T18:42:08+00:00,0.0978,Sem classificação de risco de evasão,0.0144
+2026-11-13T18:42:09+00:00,0.0077,Sem classificação de risco de evasão,0.0138
+2026-11-13T18:42:09+00:00,0.2226,Sem classificação de risco de evasão,0.0142
+2026-11-13T18:42:09+00:00,0.0741,Sem classificação de risco de evasão,0.0139
+2026-11-13T18:42:09+00:00,0.2347,Sem classificação de risco de evasão,0.0151
+2026-11-13T18:42:09+00:00,0.405,Sem classificação de risco de evasão,0.0144
+2026-11-13T18:42:09+00:00,0.151,Sem classificação de risco de evasão,0.015
+2026-11-13T18:42:09+00:00,0.6442,Risco de evasão,0.0145
+2026-11-13T18:42:09+00:00,0.3193,Sem classificação de risco de evasão,0.0146
+2026-11-13T18:42:09+00:00,0.148,Sem classificação de risco de evasão,0.0176
+2026-11-13T18:42:09+00:00,0.0402,Sem classificação de risco de evasão,0.0133
+2026-11-13T18:42:09+00:00,0.1184,Sem classificação de risco de evasão,0.014
+2026-11-13T18:42:09+00:00,0.4814,Sem classificação de risco de evasão,0.0149
+2026-11-13T18:42:09+00:00,0.041,Sem classificação de risco de evasão,0.0146
+2026-11-13T18:42:09+00:00,0.2467,Sem classificação de risco de evasão,0.0143
+2026-11-13T18:42:09+00:00,0.2355,Sem classificação de risco de evasão,0.0136
+2026-11-13T18:42:09+00:00,0.0264,Sem classificação de risco de evasão,0.0154
+2026-11-13T18:42:09+00:00,0.1773,Sem classificação de risco de evasão,0.0153
+2026-11-13T18:42:09+00:00,0.2215,Sem classificação de risco de evasão,0.0147
+2026-11-13T18:42:09+00:00,0.3902,Sem classificação de risco de evasão,0.0178
+2026-11-13T18:42:09+00:00,0.0247,Sem classificação de risco de evasão,0.015
+2026-11-13T18:42:09+00:00,0.1775,Sem classificação de risco de evasão,0.0147
+2026-11-13T18:42:09+00:00,0.4519,Sem classificação de risco de evasão,0.014
+2026-11-13T18:42:09+00:00,0.1064,Sem classificação de risco de evasão,0.0145
+2026-11-13T18:42:10+00:00,0.2055,Sem classificação de risco de evasão,0.0171
+2026-11-13T18:42:10+00:00,0.1392,Sem classificação de risco de evasão,0.0146
+2026-11-13T18:42:10+00:00,0.1153,Sem classificação de risco de evasão,0.0171
+2026-11-13T18:42:10+00:00,0.0819,Sem classificação de risco de evasão,0.0145
+2026-11-13T18:42:10+00:00,0.1406,Sem classificação de risco de evasão,0.0145
+2026-11-13T18:42:10+00:00,0.18,Sem classificação de risco de evasão,0.0174
+2026-11-13T18:42:10+00:00,0.0924,Sem classificação de risco de evasão,0.0137
+2026-11-13T18:42:10+00:00,0.0557,Sem classificação de risco de evasão,0.0148
+2026-11-13T18:42:10+00:00,0.0364,Sem classificação de risco de evasão,0.015
+2026-11-13T18:42:10+00:00,0.0459,Sem classificação de risco de evasão,0.0164
+2026-11-13T18:42:10+00:00,0.04,Sem classificação de risco de evasão,0.0167
+2026-11-13T18:42:10+00:00,0.5539,Risco de evasão,0.0154
+2026-11-13T18:42:10+00:00,0.5292,Risco de evasão,0.015
+2026-11-13T18:42:10+00:00,0.4129,Sem classificação de risco de evasão,0.0146
+2026-11-13T18:42:10+00:00,0.3276,Sem classificação de risco de evasão,0.0145
+2026-11-13T18:42:10+00:00,0.8331,Risco de evasão,0.0177
+2026-11-13T18:42:10+00:00,0.4464,Sem classificação de risco de evasão,0.0152
+2026-11-13T18:42:10+00:00,0.1699,Sem classificação de risco de evasão,0.0146
+2026-11-13T18:42:10+00:00,0.0762,Sem classificação de risco de evasão,0.0145
+2026-11-13T18:42:10+00:00,0.5559,Risco de evasão,0.0149
+2026-11-13T18:42:10+00:00,0.0651,Sem classificação de risco de evasão,0.0167
+2026-11-13T18:42:11+00:00,0.0974,Sem classificação de risco de evasão,0.0163
+2026-11-13T18:42:11+00:00,0.502,Risco de evasão,0.0136
+2026-11-13T18:42:11+00:00,0.0963,Sem classificação de risco de evasão,0.0142
+2026-11-13T18:42:11+00:00,0.4069,Sem classificação de risco de evasão,0.0138
+2026-11-13T18:42:11+00:00,0.0864,Sem classificação de risco de evasão,0.017
+2026-11-13T18:42:11+00:00,0.0203,Sem classificação de risco de evasão,0.0137
+2026-11-13T18:42:11+00:00,0.1956,Sem classificação de risco de evasão,0.0143
+2026-11-13T18:42:11+00:00,0.0378,Sem classificação de risco de evasão,0.0142
+2026-11-13T18:42:11+00:00,0.6617,Risco de evasão,0.0134
+2026-11-13T18:42:11+00:00,0.0979,Sem classificação de risco de evasão,0.0136
+2026-11-13T18:42:11+00:00,0.1107,Sem classificação de risco de evasão,0.0145
+2026-11-13T18:42:11+00:00,0.2218,Sem classificação de risco de evasão,0.0148
+2026-11-13T18:42:11+00:00,0.0615,Sem classificação de risco de evasão,0.0192
+2026-11-13T18:42:11+00:00,0.0262,Sem classificação de risco de evasão,0.0141
+2026-11-13T18:42:11+00:00,0.0233,Sem classificação de risco de evasão,0.0177
+2026-11-13T18:42:11+00:00,0.052,Sem classificação de risco de evasão,0.0136
+2026-11-13T18:42:11+00:00,0.1359,Sem classificação de risco de evasão,0.0138
+2026-11-13T18:42:11+00:00,0.0327,Sem classificação de risco de evasão,0.0141
+2026-11-13T18:42:11+00:00,0.0202,Sem classificação de risco de evasão,0.014
+2026-11-13T18:42:11+00:00,0.3228,Sem classificação de risco de evasão,0.0163
+2026-11-13T18:42:11+00:00,0.3714,Sem classificação de risco de evasão,0.0139
+2026-11-13T18:42:11+00:00,0.3702,Sem classificação de risco de evasão,0.0143
+2026-11-13T18:42:11+00:00,0.1278,Sem classificação de risco de evasão,0.0143
+2026-11-13T18:42:12+00:00,0.0886,Sem classificação de risco de evasão,0.0146
+2026-11-13T18:42:12+00:00,0.1938,Sem classificação de risco de evasão,0.0168
+2026-11-13T18:42:12+00:00,0.2997,Sem classificação de risco de evasão,0.0139
+2026-11-13T18:42:12+00:00,0.4445,Sem classificação de risco de evasão,0.014
+2026-11-13T18:42:12+00:00,0.8105,Risco de evasão,0.0141
+2026-11-13T18:42:12+00:00,0.7162,Risco de evasão,0.0134
+2026-11-13T18:42:12+00:00,0.259,Sem classificação de risco de evasão,0.0158
+2026-11-13T18:42:12+00:00,0.0807,Sem classificação de risco de evasão,0.0139
+2026-11-13T18:42:12+00:00,0.0557,Sem classificação de risco de evasão,0.0143
+2026-11-13T18:42:12+00:00,0.0298,Sem classificação de risco de evasão,0.014
+2026-11-13T18:42:12+00:00,0.4194,Sem classificação de risco de evasão,0.0147
+2026-11-13T18:42:12+00:00,0.5495,Risco de evasão,0.0165
+2026-11-13T18:42:12+00:00,0.408,Sem classificação de risco de evasão,0.0201
+2026-11-13T18:42:12+00:00,0.0312,Sem classificação de risco de evasão,0.0158
+2026-11-13T18:42:12+00:00,0.4384,Sem classificação de risco de evasão,0.0146
+2026-11-13T18:42:12+00:00,0.4307,Sem classificação de risco de evasão,0.0143
+2026-11-13T18:42:12+00:00,0.2677,Sem classificação de risco de evasão,0.0163
+2026-11-13T18:42:12+00:00,0.0987,Sem classificação de risco de evasão,0.0146
+2026-11-13T18:42:12+00:00,0.0601,Sem classificação de risco de evasão,0.0142
+2026-11-13T18:42:12+00:00,0.0214,Sem classificação de risco de evasão,0.0148
+2026-11-13T18:42:12+00:00,0.0243,Sem classificação de risco de evasão,0.014
+2026-11-13T18:42:12+00:00,0.3695,Sem classificação de risco de evasão,0.0168
+2026-11-13T18:42:13+00:00,0.3125,Sem classificação de risco de evasão,0.0134
+2026-11-13T18:42:13+00:00,0.334,Sem classificação de risco de evasão,0.0153
+2026-11-13T18:42:13+00:00,0.1543,Sem classificação de risco de evasão,0.0146
+2026-11-13T18:42:13+00:00,0.0056,Sem classificação de risco de evasão,0.016
+2026-11-13T18:42:13+00:00,0.011,Sem classificação de risco de evasão,0.0171
+2026-11-13T18:42:13+00:00,0.0876,Sem classificação de risco de evasão,0.0137
+2026-11-13T18:42:13+00:00,0.0462,Sem classificação de risco de evasão,0.0141
+2026-11-13T18:42:13+00:00,0.3265,Sem classificação de risco de evasão,0.0143
+2026-11-13T18:42:13+00:00,0.0417,Sem classificação de risco de evasão,0.0165
+2026-11-13T18:42:13+00:00,0.636,Risco de evasão,0.0164
+2026-11-13T18:42:13+00:00,0.312,Sem classificação de risco de evasão,0.0148
+2026-11-13T18:42:13+00:00,0.4502,Sem classificação de risco de evasão,0.0135
+2026-11-13T18:42:13+00:00,0.5786,Risco de evasão,0.0144
+2026-11-13T18:42:13+00:00,0.191,Sem classificação de risco de evasão,0.0146
+2026-11-13T18:42:13+00:00,0.2263,Sem classificação de risco de evasão,0.018
+2026-11-13T18:42:13+00:00,0.4915,Sem classificação de risco de evasão,0.014
+2026-11-13T18:42:13+00:00,0.0291,Sem classificação de risco de evasão,0.015
+2026-11-13T18:42:13+00:00,0.2894,Sem classificação de risco de evasão,0.0138
+2026-11-13T18:42:13+00:00,0.3314,Sem classificação de risco de evasão,0.0174
+2026-11-13T18:42:13+00:00,0.1537,Sem classificação de risco de evasão,0.0165
+2026-11-13T18:42:13+00:00,0.0843,Sem classificação de risco de evasão,0.0139
+2026-11-13T18:42:13+00:00,0.0597,Sem classificação de risco de evasão,0.0137
+2026-11-13T18:42:13+00:00,0.0691,Sem classificação de risco de evasão,0.014
+2026-11-13T18:42:14+00:00,0.0554,Sem classificação de risco de evasão,0.0139
+2026-11-13T18:42:14+00:00,0.0267,Sem classificação de risco de evasão,0.0156
+2026-11-13T18:42:14+00:00,0.2931,Sem classificação de risco de evasão,0.0142
+2026-11-13T18:42:14+00:00,0.2324,Sem classificação de risco de evasão,0.0146
+2026-11-13T18:42:14+00:00,0.106,Sem classificação de risco de evasão,0.0147
+2026-11-13T18:42:14+00:00,0.139,Sem classificação de risco de evasão,0.0144
+2026-11-13T18:42:14+00:00,0.3569,Sem classificação de risco de evasão,0.0166
+2026-11-13T18:42:14+00:00,0.32,Sem classificação de risco de evasão,0.0158
+2026-11-13T18:42:14+00:00,0.4995,Sem classificação de risco de evasão,0.015
+2026-11-13T18:42:14+00:00,0.218,Sem classificação de risco de evasão,0.0143
+2026-11-13T18:42:14+00:00,0.2738,Sem classificação de risco de evasão,0.0145
+2026-11-13T18:42:14+00:00,0.0399,Sem classificação de risco de evasão,0.0166
+2026-11-13T18:42:14+00:00,0.0652,Sem classificação de risco de evasão,0.0145
+2026-11-13T18:42:14+00:00,0.4815,Sem classificação de risco de evasão,0.0142
+2026-11-13T18:42:14+00:00,0.0487,Sem classificação de risco de evasão,0.0145
+2026-11-13T18:42:14+00:00,0.1406,Sem classificação de risco de evasão,0.0141
+2026-11-13T18:42:14+00:00,0.1313,Sem classificação de risco de evasão,0.0177
+2026-11-13T18:42:14+00:00,0.1353,Sem classificação de risco de evasão,0.0148
+2026-11-13T18:42:14+00:00,0.2634,Sem classificação de risco de evasão,0.0139
+2026-11-13T18:42:14+00:00,0.3461,Sem classificação de risco de evasão,0.0151
+2026-11-13T18:42:14+00:00,0.7352,Risco de evasão,0.0144
+2026-11-13T18:42:14+00:00,0.0613,Sem classificação de risco de evasão,0.0153
+2026-11-13T18:42:15+00:00,0.0708,Sem classificação de risco de evasão,0.0142
+2026-11-13T18:42:15+00:00,0.5388,Risco de evasão,0.0141
+2026-11-13T18:42:15+00:00,0.1118,Sem classificação de risco de evasão,0.0144
+2026-11-13T18:42:15+00:00,0.1105,Sem classificação de risco de evasão,0.0157
+2026-11-13T18:42:15+00:00,0.0999,Sem classificação de risco de evasão,0.0166
+2026-11-13T18:42:15+00:00,0.3571,Sem classificação de risco de evasão,0.0145
+2026-11-13T18:42:15+00:00,0.1554,Sem classificação de risco de evasão,0.0137
+2026-11-13T18:42:15+00:00,0.1084,Sem classificação de risco de evasão,0.0149
+2026-11-13T18:42:15+00:00,0.1697,Sem classificação de risco de evasão,0.0149
+2026-11-13T18:42:15+00:00,0.0986,Sem classificação de risco de evasão,0.0157
+2026-11-13T18:42:15+00:00,0.0215,Sem classificação de risco de evasão,0.0141
+2026-11-13T18:42:15+00:00,0.056,Sem classificação de risco de evasão,0.0132
+2026-11-13T18:42:15+00:00,0.1683,Sem classificação de risco de evasão,0.0136
+2026-11-13T18:42:15+00:00,0.1424,Sem classificação de risco de evasão,0.0137
+2026-11-13T18:42:15+00:00,0.0472,Sem classificação de risco de evasão,0.0138
+2026-11-13T18:42:15+00:00,0.3905,Sem classificação de risco de evasão,0.0194
+2026-11-13T18:42:15+00:00,0.1628,Sem classificação de risco de evasão,0.0149
+2026-11-13T18:42:15+00:00,0.059,Sem classificação de risco de evasão,0.0162
+2026-11-13T18:42:15+00:00,0.1108,Sem classificação de risco de evasão,0.0138
+2026-11-13T18:42:15+00:00,0.1106,Sem classificação de risco de evasão,0.0141
+2026-11-13T18:42:15+00:00,0.0381,Sem classificação de risco de evasão,0.0142
+2026-11-13T18:42:15+00:00,0.069,Sem classificação de risco de evasão,0.0137
+2026-11-13T18:42:16+00:00,0.3171,Sem classificação de risco de evasão,0.0138
+2026-11-13T18:42:16+00:00,0.1892,Sem classificação de risco de evasão,0.0143
+2026-11-13T18:42:16+00:00,0.5741,Risco de evasão,0.0137
+2026-11-13T18:42:16+00:00,0.3987,Sem classificação de risco de evasão,0.0165
+2026-11-13T18:42:16+00:00,0.168,Sem classificação de risco de evasão,0.0142
+2026-11-13T18:42:16+00:00,0.2168,Sem classificação de risco de evasão,0.0136
+2026-11-13T18:42:16+00:00,0.4493,Sem classificação de risco de evasão,0.0135
+2026-11-13T18:42:16+00:00,0.2042,Sem classificação de risco de evasão,0.018
+2026-11-13T18:42:16+00:00,0.14,Sem classificação de risco de evasão,0.0135
+2026-11-13T18:42:16+00:00,0.2019,Sem classificação de risco de evasão,0.0145
+2026-11-13T18:42:16+00:00,0.8982,Risco de evasão,0.0142
+2026-11-13T18:42:16+00:00,0.1417,Sem classificação de risco de evasão,0.0138
+2026-11-13T18:42:16+00:00,0.1938,Sem classificação de risco de evasão,0.0175
+2026-11-13T18:42:16+00:00,0.0945,Sem classificação de risco de evasão,0.0135
+2026-11-13T18:42:16+00:00,0.0569,Sem classificação de risco de evasão,0.0135
+2026-11-13T18:42:16+00:00,0.1216,Sem classificação de risco de evasão,0.014
+2026-11-13T18:42:16+00:00,0.2489,Sem classificação de risco de evasão,0.0209
+2026-11-13T18:42:16+00:00,0.2629,Sem classificação de risco de evasão,0.0187
+2026-11-13T18:42:16+00:00,0.3245,Sem classificação de risco de evasão,0.0144
+2026-11-13T18:42:16+00:00,0.0481,Sem classificação de risco de evasão,0.0139
+2026-11-13T18:42:16+00:00,0.1455,Sem classificação de risco de evasão,0.0141
+2026-11-13T18:42:16+00:00,0.015,Sem classificação de risco de evasão,0.0147
+2026-11-13T18:42:16+00:00,0.3492,Sem classificação de risco de evasão,0.015
+2026-11-13T18:42:17+00:00,0.109,Sem classificação de risco de evasão,0.0146
+2026-11-13T18:42:17+00:00,0.2841,Sem classificação de risco de evasão,0.0139
+2026-11-13T18:42:17+00:00,0.0609,Sem classificação de risco de evasão,0.0144
+2026-11-13T18:42:17+00:00,0.0268,Sem classificação de risco de evasão,0.0147
+2026-11-13T18:42:17+00:00,0.5304,Risco de evasão,0.0175
+2026-11-13T18:42:17+00:00,0.1827,Sem classificação de risco de evasão,0.0141
+2026-11-13T18:42:17+00:00,0.0275,Sem classificação de risco de evasão,0.0136
+2026-11-13T18:42:17+00:00,0.125,Sem classificação de risco de evasão,0.0139
+2026-11-13T18:42:17+00:00,0.104,Sem classificação de risco de evasão,0.0153
+2026-11-13T18:42:17+00:00,0.0057,Sem classificação de risco de evasão,0.0172
+2026-11-13T18:42:17+00:00,0.1687,Sem classificação de risco de evasão,0.0135
+2026-11-13T18:42:17+00:00,0.1568,Sem classificação de risco de evasão,0.0132
+2026-11-13T18:42:17+00:00,0.5297,Risco de evasão,0.0155
+2026-11-13T18:42:17+00:00,0.0992,Sem classificação de risco de evasão,0.016
+2026-11-13T18:42:17+00:00,0.3952,Sem classificação de risco de evasão,0.0267
+2026-11-13T18:42:17+00:00,0.0922,Sem classificação de risco de evasão,0.0284
+2026-11-13T18:42:17+00:00,0.0261,Sem classificação de risco de evasão,0.0209
+2026-11-13T18:42:17+00:00,0.4775,Sem classificação de risco de evasão,0.0228
+2026-11-13T18:42:17+00:00,0.9474,Risco de evasão,0.0171
+2026-11-13T18:42:17+00:00,0.1009,Sem classificação de risco de evasão,0.0197
+2026-11-13T18:42:18+00:00,0.1268,Sem classificação de risco de evasão,0.0164
+2026-11-13T18:42:18+00:00,0.5664,Risco de evasão,0.0207
+2026-11-13T18:42:18+00:00,0.0647,Sem classificação de risco de evasão,0.0159
+2026-11-13T18:42:18+00:00,0.0718,Sem classificação de risco de evasão,0.0156
+2026-11-13T18:42:18+00:00,0.5629,Risco de evasão,0.0204
+2026-11-13T18:42:18+00:00,0.1742,Sem classificação de risco de evasão,0.0169
+2026-11-13T18:42:18+00:00,0.1024,Sem classificação de risco de evasão,0.0155
+2026-11-13T18:42:18+00:00,0.09,Sem classificação de risco de evasão,0.0154
+2026-11-13T18:42:18+00:00,0.427,Sem classificação de risco de evasão,0.0217
+2026-11-13T18:42:18+00:00,0.2117,Sem classificação de risco de evasão,0.0181
+2026-11-13T18:42:18+00:00,0.0747,Sem classificação de risco de evasão,0.0223
+2026-11-13T18:42:18+00:00,0.6327,Risco de evasão,0.0173
+2026-11-13T18:42:18+00:00,0.0254,Sem classificação de risco de evasão,0.0204
+2026-11-13T18:42:18+00:00,0.191,Sem classificação de risco de evasão,0.0199
+2026-11-13T18:42:18+00:00,0.1,Sem classificação de risco de evasão,0.0164
+2026-11-13T18:42:18+00:00,0.4389,Sem classificação de risco de evasão,0.0155
+2026-11-13T18:42:19+00:00,0.4529,Sem classificação de risco de evasão,0.0201
+2026-11-13T18:42:19+00:00,0.0478,Sem classificação de risco de evasão,0.0193
+2026-11-13T18:42:19+00:00,0.0368,Sem classificação de risco de evasão,0.0186
+2026-11-13T18:42:19+00:00,0.034,Sem classificação de risco de evasão,0.0172
+2026-11-13T18:42:19+00:00,0.0106,Sem classificação de risco de evasão,0.0176
+2026-11-13T19:10:23+00:00,0.3378,Sem classificação de risco de evasão,0.0725
+2026-11-13T19:16:46+00:00,0.9329,Risco de evasão,0.0162
